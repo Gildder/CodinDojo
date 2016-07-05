@@ -53,7 +53,7 @@ namespace Presentacion
         private void btnDimensionar_Click(object sender, EventArgs e)
         {
             
-            if((!tbxDimensionA.Text.Equals("")) || (!tbxDimensionB.Text.Equals("")))
+            if((!tbxDimensionA.Text.Equals("")) && (!tbxDimensionB.Text.Equals("")))
             {
                 if((Convert.ToInt32(tbxDimensionA.Text) > 100) || (Convert.ToInt32(tbxDimensionA.Text) > 100))
                 {
@@ -74,7 +74,7 @@ namespace Presentacion
             }
             else
             {
-                MessageBox.Show("Por favor, Introduce el de los conjuntos", "Validacion de datos", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Por favor, Introduce la dimension de los conjuntos", "Validacion de datos", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
         }
@@ -138,6 +138,16 @@ namespace Presentacion
             {
                 conjuntoB.Insertar(i, randon.Next(1, 100));
             }
+        }
+
+        private void tbxDimensionA_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Validar.OnlyNumeric(e);
+        }
+
+        private void tbxDimensionB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Validar.OnlyNumeric(e);
         }
     }
 }
