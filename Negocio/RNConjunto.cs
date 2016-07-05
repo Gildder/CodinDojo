@@ -9,7 +9,17 @@ namespace Negocio
     {
         public RNConjunto Union(RNConjunto A, RNConjunto B)
         {
-            return new RNConjunto();
+            RNConjunto aux = A;
+            for(int i = 0; i < B.Pn; i++)
+            {
+                if(!aux.Existe(B.LeerVector(i).Num))
+                {
+                    aux.Insertar(B.LeerVector(i));
+                }
+            }
+
+            aux.Ordenar();
+            return aux;
         }
 
         public RNConjunto Intercepcion(RNConjunto A, RNConjunto B)

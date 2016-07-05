@@ -149,5 +149,64 @@ namespace Presentacion
         {
             Validar.OnlyNumeric(e);
         }
+
+        private void trvMenu_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
+        {
+            if(dgvConjuntoA.Columns.Count == 0 && dgvConjuntoB.Columns.Count == 0 && e.Node.Name != "Operaciones" && e.Node.Name != "Salir")
+            {
+                MessageBox.Show("Por favor, dimensionar los conjuntos", "Advertencias", MessageBoxButtons.OK, MessageBoxIcon.Question);
+                return;
+            }
+
+            switch(e.Node.Name)
+            {
+                case "Union de Conjuntos ":
+                    UnionConjunto(conjuntoA, conjuntoB);
+                    DibujarR();
+                    break;
+                case "Intercepcion de conjuntos":
+                    break;
+                case "Diferencia entre conjuntos {A}-{B}":
+                    break;
+                case "Diferencia entre conjuntos {B}-{A}":
+                    break;
+                case "Diferencia Simetrica":
+                    break;
+                case "Pertenece":
+                    break;
+                case "Salir":
+                    Close();
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        private void DibujarR()
+        {
+            LimpiarConjuntoR();
+            for(int i = 0; i < resultado.Pn; i++)
+            {
+                dgvConjuntoR.Columns.Add(Convert.ToString(i), Convert.ToString(i));
+
+                if(dgvConjuntoR.Columns.Count == 1)
+                    dgvConjuntoR.Rows.Add();
+
+                dgvConjuntoR[i, 0].Value = resultado.LeerVector(i).Num;
+            }
+        }
+
+        private void LimpiarConjuntoR()
+        {
+            for(int i = dgvConjuntoR.Columns.Count - 1; i >= 0; i--)
+            {
+                dgvConjuntoR.Columns.RemoveAt(i);
+            }
+        }
+
+        private void UnionConjunto(RNConjunto A, RNConjunto B)
+        {
+            resultado = resultado.Union(A, B);
+        }
     }
 }

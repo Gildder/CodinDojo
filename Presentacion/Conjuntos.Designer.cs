@@ -28,20 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Union de Conjuntos ");
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Intercepcion de conjuntos");
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Diferencia entre conjuntos {A}-{B}");
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Diferencia entre conjuntos {B}-{A}");
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Diferencia Simetrica");
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Pertenece");
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Operaciones", new System.Windows.Forms.TreeNode[] {
-            treeNode17,
-            treeNode18,
-            treeNode19,
-            treeNode20,
-            treeNode21,
-            treeNode22});
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Salir");
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Union de Conjuntos ");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Intercepcion de conjuntos");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Diferencia entre conjuntos {A}-{B}");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Diferencia entre conjuntos {B}-{A}");
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Diferencia Simetrica");
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Pertenece");
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Operaciones", new System.Windows.Forms.TreeNode[] {
+            treeNode1,
+            treeNode2,
+            treeNode3,
+            treeNode4,
+            treeNode5,
+            treeNode6});
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Salir");
             this.lblVectores = new System.Windows.Forms.Label();
             this.trvMenu = new System.Windows.Forms.TreeView();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -81,28 +81,29 @@
             this.trvMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.trvMenu.Location = new System.Drawing.Point(0, 0);
             this.trvMenu.Name = "trvMenu";
-            treeNode17.Name = "Union de Conjuntos ";
-            treeNode17.Text = "Union de Conjuntos ";
-            treeNode18.Name = "Intercepcion de conjuntos";
-            treeNode18.Text = "Intercepcion de conjuntos";
-            treeNode19.Name = "Diferencia entre conjuntos {A}-{B}";
-            treeNode19.Text = "Diferencia entre conjuntos {A}-{B}";
-            treeNode20.Name = "Diferencia entre conjuntos {B}-{A}";
-            treeNode20.Text = "Diferencia entre conjuntos {B}-{A}";
-            treeNode21.Name = "Diferencia Simetrica";
-            treeNode21.Text = "Diferencia Simetrica";
-            treeNode22.Name = "Pertenece";
-            treeNode22.Text = "Pertenece";
-            treeNode23.Name = "Operaciones ";
-            treeNode23.Text = "Operaciones";
-            treeNode24.Name = "Salir";
-            treeNode24.Text = "Salir";
+            treeNode1.Name = "Union de Conjuntos ";
+            treeNode1.Text = "Union de Conjuntos ";
+            treeNode2.Name = "Intercepcion de conjuntos";
+            treeNode2.Text = "Intercepcion de conjuntos";
+            treeNode3.Name = "Diferencia entre conjuntos {A}-{B}";
+            treeNode3.Text = "Diferencia entre conjuntos {A}-{B}";
+            treeNode4.Name = "Diferencia entre conjuntos {B}-{A}";
+            treeNode4.Text = "Diferencia entre conjuntos {B}-{A}";
+            treeNode5.Name = "Diferencia Simetrica";
+            treeNode5.Text = "Diferencia Simetrica";
+            treeNode6.Name = "Pertenece";
+            treeNode6.Text = "Pertenece";
+            treeNode7.Name = "Operaciones";
+            treeNode7.Text = "Operaciones";
+            treeNode8.Name = "Salir";
+            treeNode8.Text = "Salir";
             this.trvMenu.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode23,
-            treeNode24});
+            treeNode7,
+            treeNode8});
             this.trvMenu.Size = new System.Drawing.Size(249, 430);
             this.trvMenu.TabIndex = 8;
             this.trvMenu.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.trvMenu_AfterSelect);
+            this.trvMenu.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.trvMenu_NodeMouseClick);
             // 
             // panel1
             // 
