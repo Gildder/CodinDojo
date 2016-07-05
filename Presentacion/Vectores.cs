@@ -17,9 +17,6 @@ namespace Presentacion
         public Vectores()
         {
             InitializeComponent();
-
-            
-
         }
      
         private void tbxDimension_KeyPress(object sender, KeyPressEventArgs e)
@@ -49,7 +46,7 @@ namespace Presentacion
                     Dimensionar(Convert.ToInt32(tbxDimension.Text));
                     LimpiarVector();
                     lblResultadoValor.Text = "#";
-                    Cargar();
+                    Dibujar();
                 }
             }
             else
@@ -78,7 +75,7 @@ namespace Presentacion
         }
 
 
-        public void Cargar()
+        public void Dibujar()
         {
             for(int i = 0; i < vector.Pn; i++)
             {
@@ -122,22 +119,22 @@ namespace Presentacion
                 case "OrdenarVector":
                     LimpiarVector();
                     vector.Ordenar();
-                    Cargar();
+                    Dibujar();
                     break;
                 case "EliminarCapicuas":
                     LimpiarVector();
                     vector.EliminarCapicuas();
-                    Cargar();
+                    Dibujar();
                     break;
                 case "EliminarRepetidos":
                     LimpiarVector();
                     vector.EliminarRepetidos();
-                    Cargar();
+                    Dibujar();
                     break;
                 case "EliminarPrimos":
                     LimpiarVector();
                     vector.EliminarPrimos();
-                    Cargar();
+                    Dibujar();
                     break;
                 case "BuscarElemento":
                     AdaptarInterfaz();
