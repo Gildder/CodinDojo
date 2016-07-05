@@ -1,0 +1,26 @@
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Presentacion\obj\Debug\Presentacion.Conjunto.resources
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Presentacion\obj\Debug\Presentacion.Numeros.resources
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Presentacion\obj\Debug\Presentacion.Vectores.resources
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Presentacion\bin\Debug\Negocio.dll
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Presentacion\obj\Debug\Presentacion.Principal.resources
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Presentacion\bin\Debug\Negocio.dll
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Presentacion\obj\Debug\Presentacion.Conjunto.resources
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Presentacion\obj\Debug\Presentacion.Numeros.resources
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Presentacion\obj\Debug\Presentacion.Principal.resources
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Presentacion\obj\Debug\Presentacion.Vectores.resources
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache

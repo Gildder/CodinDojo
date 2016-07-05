@@ -1,0 +1,10 @@
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Negocio\bin\Debug\Negocio.dll
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Negocio\bin\Debug\Negocio.pdb
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Negocio\obj\Debug\Negocio.dll
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Negocio\obj\Debug\Negocio.pdb
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Negocio\bin\Debug\Negocio.dll
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Negocio\bin\Debug\Negocio.pdb
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Negocio\obj\Debug\Negocio.dll
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Negocio\obj\Debug\Negocio.pdb

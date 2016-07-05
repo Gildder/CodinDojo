@@ -1,0 +1,14 @@
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Prueba\bin\Debug\Prueba.dll
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Prueba\bin\Debug\Prueba.pdb
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Prueba\bin\Debug\Negocio.dll
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Prueba\bin\Debug\Negocio.pdb
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Prueba\obj\Debug\Prueba.csprojResolveAssemblyReference.cache
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Prueba\obj\Debug\Prueba.dll
+C:\Users\gildder\documents\visual studio 2012\Projects\CodinDojoDiplomado\Prueba\obj\Debug\Prueba.pdb
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Prueba\obj\Debug\Prueba.csprojResolveAssemblyReference.cache
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Prueba\obj\Debug\Prueba.dll
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Prueba\bin\Debug\Prueba.dll
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Prueba\bin\Debug\Prueba.pdb
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Prueba\bin\Debug\Negocio.dll
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Prueba\bin\Debug\Negocio.pdb
+C:\Users\gildder\Documents\Visual Studio 2012\Projects\CodinDojoDiplomado - copia\Prueba\obj\Debug\Prueba.pdb
