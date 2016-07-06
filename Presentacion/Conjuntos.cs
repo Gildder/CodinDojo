@@ -181,12 +181,25 @@ namespace Presentacion
                     DibujarR();
                     break;
                 case "Pertenece":
+                    DibujarBusqueda();
                     break;
                 case "Salir":
                     Close();
                     break;
                 default:
                     break;
+            }
+        }
+
+        private void DibujarBusqueda()
+        {
+            if(panel2.Visible)
+            {
+                panel2.Visible = false;
+            }
+            else
+            {
+                panel2.Visible = true;
             }
         }
 
@@ -237,6 +250,33 @@ namespace Presentacion
             {
                 dgvConjuntoR.Columns.RemoveAt(i);
             }
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            bool resultado = false;
+            if(cbxConjunto.Text == "A")
+            {
+                RNConjunto conjuntoAux = new RNConjunto();
+                conjuntoAux.Insertar(0, Convert.ToInt32(tbxElemento.Text));
+
+                resultado = conjuntoA.SubconjuntoAB(conjuntoA, conjuntoAux);
+
+            }
+            else
+            {
+                RNConjunto conjuntoAux = new RNConjunto();
+                conjuntoAux.Insertar(0, Convert.ToInt32(tbxElemento.Text));
+
+                resultado = conjuntoB.SubconjuntoAB(conjuntoB, conjuntoAux);
+            }
+
+            if(resultado)
+                MessageBox.Show("Elemento exite!", "Resultado de Busqueda", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            else
+                MessageBox.Show("Elemento NO exite!", "Resultado de Busqueda", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            panel2.Visible = false;
         }
     }
 }

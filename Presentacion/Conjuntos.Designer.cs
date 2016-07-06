@@ -28,39 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Union de Conjuntos ");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Intercepcion de conjuntos");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Diferencia entre conjuntos {A}-{B}");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Diferencia entre conjuntos {B}-{A}");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Diferencia Simetrica");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Pertenece");
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Operaciones", new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2,
-            treeNode3,
-            treeNode4,
-            treeNode5,
-            treeNode6});
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Salir");
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Union de Conjuntos ");
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Intercepcion de conjuntos");
+            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Diferencia entre conjuntos {A}-{B}");
+            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Diferencia entre conjuntos {B}-{A}");
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Diferencia Simetrica");
+            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Pertenece");
+            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Operaciones", new System.Windows.Forms.TreeNode[] {
+            treeNode17,
+            treeNode18,
+            treeNode19,
+            treeNode20,
+            treeNode21,
+            treeNode22});
+            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Salir");
             this.lblVectores = new System.Windows.Forms.Label();
             this.trvMenu = new System.Windows.Forms.TreeView();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblA = new System.Windows.Forms.Label();
-            this.lblB = new System.Windows.Forms.Label();
-            this.lblResultado = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.tbxElemento = new System.Windows.Forms.TextBox();
+            this.cbxConjunto = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.dgvConjuntoR = new System.Windows.Forms.DataGridView();
+            this.dgvConjuntoB = new System.Windows.Forms.DataGridView();
+            this.dgvConjuntoA = new System.Windows.Forms.DataGridView();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tbxDimensionB = new System.Windows.Forms.TextBox();
             this.btnDimensionar = new System.Windows.Forms.Button();
             this.tbxDimensionA = new System.Windows.Forms.TextBox();
             this.lblDimensionar = new System.Windows.Forms.Label();
-            this.tbxDimensionB = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.dgvConjuntoA = new System.Windows.Forms.DataGridView();
-            this.dgvConjuntoB = new System.Windows.Forms.DataGridView();
-            this.dgvConjuntoR = new System.Windows.Forms.DataGridView();
+            this.lblResultado = new System.Windows.Forms.Label();
+            this.lblB = new System.Windows.Forms.Label();
+            this.lblA = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvConjuntoA)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvConjuntoB)).BeginInit();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvConjuntoR)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvConjuntoB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvConjuntoA)).BeginInit();
             this.SuspendLayout();
             // 
             // lblVectores
@@ -81,25 +88,25 @@
             this.trvMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.trvMenu.Location = new System.Drawing.Point(0, 0);
             this.trvMenu.Name = "trvMenu";
-            treeNode1.Name = "Union de Conjuntos ";
-            treeNode1.Text = "Union de Conjuntos ";
-            treeNode2.Name = "Intercepcion de conjuntos";
-            treeNode2.Text = "Intercepcion de conjuntos";
-            treeNode3.Name = "Diferencia entre conjuntos {A}-{B}";
-            treeNode3.Text = "Diferencia entre conjuntos {A}-{B}";
-            treeNode4.Name = "Diferencia entre conjuntos {B}-{A}";
-            treeNode4.Text = "Diferencia entre conjuntos {B}-{A}";
-            treeNode5.Name = "Diferencia Simetrica";
-            treeNode5.Text = "Diferencia Simetrica";
-            treeNode6.Name = "Pertenece";
-            treeNode6.Text = "Pertenece";
-            treeNode7.Name = "Operaciones";
-            treeNode7.Text = "Operaciones";
-            treeNode8.Name = "Salir";
-            treeNode8.Text = "Salir";
+            treeNode17.Name = "Union de Conjuntos ";
+            treeNode17.Text = "Union de Conjuntos ";
+            treeNode18.Name = "Intercepcion de conjuntos";
+            treeNode18.Text = "Intercepcion de conjuntos";
+            treeNode19.Name = "Diferencia entre conjuntos {A}-{B}";
+            treeNode19.Text = "Diferencia entre conjuntos {A}-{B}";
+            treeNode20.Name = "Diferencia entre conjuntos {B}-{A}";
+            treeNode20.Text = "Diferencia entre conjuntos {B}-{A}";
+            treeNode21.Name = "Diferencia Simetrica";
+            treeNode21.Text = "Diferencia Simetrica";
+            treeNode22.Name = "Pertenece";
+            treeNode22.Text = "Pertenece";
+            treeNode23.Name = "Operaciones";
+            treeNode23.Text = "Operaciones";
+            treeNode24.Name = "Salir";
+            treeNode24.Text = "Salir";
             this.trvMenu.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode7,
-            treeNode8});
+            treeNode23,
+            treeNode24});
             this.trvMenu.Size = new System.Drawing.Size(249, 430);
             this.trvMenu.TabIndex = 8;
             this.trvMenu.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.trvMenu_AfterSelect);
@@ -110,6 +117,7 @@
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.dgvConjuntoR);
             this.panel1.Controls.Add(this.dgvConjuntoB);
             this.panel1.Controls.Add(this.dgvConjuntoA);
@@ -128,35 +136,152 @@
             this.panel1.Size = new System.Drawing.Size(619, 430);
             this.panel1.TabIndex = 9;
             // 
-            // lblA
+            // panel2
             // 
-            this.lblA.AutoSize = true;
-            this.lblA.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblA.Location = new System.Drawing.Point(23, 136);
-            this.lblA.Name = "lblA";
-            this.lblA.Size = new System.Drawing.Size(32, 17);
-            this.lblA.TabIndex = 10;
-            this.lblA.Text = "A =";
+            this.panel2.Controls.Add(this.btnBuscar);
+            this.panel2.Controls.Add(this.tbxElemento);
+            this.panel2.Controls.Add(this.cbxConjunto);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Location = new System.Drawing.Point(26, 78);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(570, 52);
+            this.panel2.TabIndex = 22;
+            this.panel2.Visible = false;
             // 
-            // lblB
+            // btnBuscar
             // 
-            this.lblB.AutoSize = true;
-            this.lblB.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblB.Location = new System.Drawing.Point(23, 224);
-            this.lblB.Name = "lblB";
-            this.lblB.Size = new System.Drawing.Size(32, 17);
-            this.lblB.TabIndex = 11;
-            this.lblB.Text = "B =";
+            this.btnBuscar.Location = new System.Drawing.Point(459, 14);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscar.TabIndex = 27;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
-            // lblResultado
+            // tbxElemento
             // 
-            this.lblResultado.AutoSize = true;
-            this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(23, 316);
-            this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(33, 17);
-            this.lblResultado.TabIndex = 12;
-            this.lblResultado.Text = "R =";
+            this.tbxElemento.Location = new System.Drawing.Point(119, 20);
+            this.tbxElemento.Name = "tbxElemento";
+            this.tbxElemento.Size = new System.Drawing.Size(100, 20);
+            this.tbxElemento.TabIndex = 26;
+            // 
+            // cbxConjunto
+            // 
+            this.cbxConjunto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxConjunto.FormattingEnabled = true;
+            this.cbxConjunto.Items.AddRange(new object[] {
+            "A",
+            "B"});
+            this.cbxConjunto.Location = new System.Drawing.Point(331, 20);
+            this.cbxConjunto.Name = "cbxConjunto";
+            this.cbxConjunto.Size = new System.Drawing.Size(121, 21);
+            this.cbxConjunto.TabIndex = 25;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(238, 18);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(86, 17);
+            this.label4.TabIndex = 24;
+            this.label4.Text = "Conjunto =";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(18, 18);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(94, 17);
+            this.label3.TabIndex = 23;
+            this.label3.Text = "Elemento = ";
+            // 
+            // dgvConjuntoR
+            // 
+            this.dgvConjuntoR.AllowUserToAddRows = false;
+            this.dgvConjuntoR.AllowUserToDeleteRows = false;
+            this.dgvConjuntoR.AllowUserToResizeColumns = false;
+            this.dgvConjuntoR.AllowUserToResizeRows = false;
+            this.dgvConjuntoR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvConjuntoR.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.dgvConjuntoR.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
+            this.dgvConjuntoR.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.dgvConjuntoR.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvConjuntoR.Location = new System.Drawing.Point(90, 316);
+            this.dgvConjuntoR.Name = "dgvConjuntoR";
+            this.dgvConjuntoR.ReadOnly = true;
+            this.dgvConjuntoR.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToDisplayedHeaders;
+            this.dgvConjuntoR.Size = new System.Drawing.Size(506, 73);
+            this.dgvConjuntoR.TabIndex = 21;
+            // 
+            // dgvConjuntoB
+            // 
+            this.dgvConjuntoB.AllowUserToAddRows = false;
+            this.dgvConjuntoB.AllowUserToDeleteRows = false;
+            this.dgvConjuntoB.AllowUserToResizeColumns = false;
+            this.dgvConjuntoB.AllowUserToResizeRows = false;
+            this.dgvConjuntoB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvConjuntoB.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.dgvConjuntoB.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
+            this.dgvConjuntoB.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.dgvConjuntoB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvConjuntoB.Location = new System.Drawing.Point(90, 224);
+            this.dgvConjuntoB.Name = "dgvConjuntoB";
+            this.dgvConjuntoB.ReadOnly = true;
+            this.dgvConjuntoB.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToDisplayedHeaders;
+            this.dgvConjuntoB.Size = new System.Drawing.Size(506, 73);
+            this.dgvConjuntoB.TabIndex = 20;
+            // 
+            // dgvConjuntoA
+            // 
+            this.dgvConjuntoA.AllowUserToAddRows = false;
+            this.dgvConjuntoA.AllowUserToDeleteRows = false;
+            this.dgvConjuntoA.AllowUserToResizeColumns = false;
+            this.dgvConjuntoA.AllowUserToResizeRows = false;
+            this.dgvConjuntoA.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvConjuntoA.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.dgvConjuntoA.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
+            this.dgvConjuntoA.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.dgvConjuntoA.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvConjuntoA.Location = new System.Drawing.Point(90, 136);
+            this.dgvConjuntoA.Name = "dgvConjuntoA";
+            this.dgvConjuntoA.ReadOnly = true;
+            this.dgvConjuntoA.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToDisplayedHeaders;
+            this.dgvConjuntoA.Size = new System.Drawing.Size(506, 73);
+            this.dgvConjuntoA.TabIndex = 19;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(365, 78);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(18, 17);
+            this.label2.TabIndex = 18;
+            this.label2.Text = "B";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(262, 78);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(18, 17);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "A";
+            // 
+            // tbxDimensionB
+            // 
+            this.tbxDimensionB.Location = new System.Drawing.Point(335, 99);
+            this.tbxDimensionB.Name = "tbxDimensionB";
+            this.tbxDimensionB.Size = new System.Drawing.Size(100, 20);
+            this.tbxDimensionB.TabIndex = 16;
+            this.tbxDimensionB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbxDimensionB_KeyPress);
             // 
             // btnDimensionar
             // 
@@ -186,90 +311,35 @@
             this.lblDimensionar.TabIndex = 14;
             this.lblDimensionar.Text = "Numero para dimensionar:";
             // 
-            // tbxDimensionB
+            // lblResultado
             // 
-            this.tbxDimensionB.Location = new System.Drawing.Point(335, 99);
-            this.tbxDimensionB.Name = "tbxDimensionB";
-            this.tbxDimensionB.Size = new System.Drawing.Size(100, 20);
-            this.tbxDimensionB.TabIndex = 16;
-            this.tbxDimensionB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbxDimensionB_KeyPress);
+            this.lblResultado.AutoSize = true;
+            this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.Location = new System.Drawing.Point(23, 316);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(33, 17);
+            this.lblResultado.TabIndex = 12;
+            this.lblResultado.Text = "R =";
             // 
-            // label1
+            // lblB
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(262, 78);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(18, 17);
-            this.label1.TabIndex = 17;
-            this.label1.Text = "A";
+            this.lblB.AutoSize = true;
+            this.lblB.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblB.Location = new System.Drawing.Point(23, 224);
+            this.lblB.Name = "lblB";
+            this.lblB.Size = new System.Drawing.Size(32, 17);
+            this.lblB.TabIndex = 11;
+            this.lblB.Text = "B =";
             // 
-            // label2
+            // lblA
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(365, 78);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(18, 17);
-            this.label2.TabIndex = 18;
-            this.label2.Text = "B";
-            // 
-            // dgvConjuntoA
-            // 
-            this.dgvConjuntoA.AllowUserToAddRows = false;
-            this.dgvConjuntoA.AllowUserToDeleteRows = false;
-            this.dgvConjuntoA.AllowUserToResizeColumns = false;
-            this.dgvConjuntoA.AllowUserToResizeRows = false;
-            this.dgvConjuntoA.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dgvConjuntoA.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            this.dgvConjuntoA.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
-            this.dgvConjuntoA.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            this.dgvConjuntoA.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvConjuntoA.Location = new System.Drawing.Point(90, 136);
-            this.dgvConjuntoA.Name = "dgvConjuntoA";
-            this.dgvConjuntoA.ReadOnly = true;
-            this.dgvConjuntoA.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToDisplayedHeaders;
-            this.dgvConjuntoA.Size = new System.Drawing.Size(506, 73);
-            this.dgvConjuntoA.TabIndex = 19;
-            // 
-            // dgvConjuntoB
-            // 
-            this.dgvConjuntoB.AllowUserToAddRows = false;
-            this.dgvConjuntoB.AllowUserToDeleteRows = false;
-            this.dgvConjuntoB.AllowUserToResizeColumns = false;
-            this.dgvConjuntoB.AllowUserToResizeRows = false;
-            this.dgvConjuntoB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dgvConjuntoB.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            this.dgvConjuntoB.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
-            this.dgvConjuntoB.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            this.dgvConjuntoB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvConjuntoB.Location = new System.Drawing.Point(90, 224);
-            this.dgvConjuntoB.Name = "dgvConjuntoB";
-            this.dgvConjuntoB.ReadOnly = true;
-            this.dgvConjuntoB.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToDisplayedHeaders;
-            this.dgvConjuntoB.Size = new System.Drawing.Size(506, 73);
-            this.dgvConjuntoB.TabIndex = 20;
-            // 
-            // dgvConjuntoR
-            // 
-            this.dgvConjuntoR.AllowUserToAddRows = false;
-            this.dgvConjuntoR.AllowUserToDeleteRows = false;
-            this.dgvConjuntoR.AllowUserToResizeColumns = false;
-            this.dgvConjuntoR.AllowUserToResizeRows = false;
-            this.dgvConjuntoR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dgvConjuntoR.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            this.dgvConjuntoR.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
-            this.dgvConjuntoR.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            this.dgvConjuntoR.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvConjuntoR.Location = new System.Drawing.Point(90, 316);
-            this.dgvConjuntoR.Name = "dgvConjuntoR";
-            this.dgvConjuntoR.ReadOnly = true;
-            this.dgvConjuntoR.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToDisplayedHeaders;
-            this.dgvConjuntoR.Size = new System.Drawing.Size(506, 73);
-            this.dgvConjuntoR.TabIndex = 21;
+            this.lblA.AutoSize = true;
+            this.lblA.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA.Location = new System.Drawing.Point(23, 136);
+            this.lblA.Name = "lblA";
+            this.lblA.Size = new System.Drawing.Size(32, 17);
+            this.lblA.TabIndex = 10;
+            this.lblA.Text = "A =";
             // 
             // Conjunto
             // 
@@ -283,9 +353,11 @@
             this.Load += new System.EventHandler(this.Conjunto_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvConjuntoA)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvConjuntoB)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvConjuntoR)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvConjuntoB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvConjuntoA)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -307,5 +379,11 @@
         private System.Windows.Forms.DataGridView dgvConjuntoA;
         private System.Windows.Forms.DataGridView dgvConjuntoB;
         private System.Windows.Forms.DataGridView dgvConjuntoR;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.TextBox tbxElemento;
+        private System.Windows.Forms.ComboBox cbxConjunto;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
     }
 }
