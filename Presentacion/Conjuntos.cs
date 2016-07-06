@@ -165,12 +165,20 @@ namespace Presentacion
                     DibujarR();
                     break;
                 case "Intercepcion de conjuntos":
+                    InterseccionConjunto(conjuntoA, conjuntoB);
+                    DibujarR();
                     break;
                 case "Diferencia entre conjuntos {A}-{B}":
+                    DiferenciaAB(conjuntoA, conjuntoB);
+                    DibujarR();
                     break;
                 case "Diferencia entre conjuntos {B}-{A}":
+                    DiferenciaBA(conjuntoA, conjuntoB);
+                    DibujarR();
                     break;
                 case "Diferencia Simetrica":
+                    DiferenciaSimetrica(conjuntoA, conjuntoB);
+                    DibujarR();
                     break;
                 case "Pertenece":
                     break;
@@ -180,6 +188,33 @@ namespace Presentacion
                 default:
                     break;
             }
+        }
+
+        private void DiferenciaSimetrica(RNConjunto A, RNConjunto B)
+        {
+            resultado = resultado.DiferenciaSimetrica(A, B);
+        }
+
+        private void DiferenciaBA(RNConjunto A, RNConjunto B)
+        {
+            resultado = resultado.DiferenciaB(A, B);
+        }
+
+        private void DiferenciaAB(RNConjunto A, RNConjunto B)
+        {
+            resultado = resultado.DiferenciaA(A, B);
+        }
+
+        private void InterseccionConjunto(RNConjunto A, RNConjunto B)
+        {
+            resultado = resultado.Intercepcion(A, B);
+        }
+
+        
+
+        private void UnionConjunto(RNConjunto A, RNConjunto B)
+        {
+            resultado = resultado.Union(A, B);
         }
 
         private void DibujarR()
@@ -202,11 +237,6 @@ namespace Presentacion
             {
                 dgvConjuntoR.Columns.RemoveAt(i);
             }
-        }
-
-        private void UnionConjunto(RNConjunto A, RNConjunto B)
-        {
-            resultado = resultado.Union(A, B);
         }
     }
 }

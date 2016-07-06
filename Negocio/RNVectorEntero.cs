@@ -163,7 +163,7 @@ namespace Negocio
         }
 
 
-        private void Eliminar(int pos)
+        public void Eliminar(int pos)
         {
             RNEntero[] aux = new RNEntero[n - 1];
             Int32 index = 0;
